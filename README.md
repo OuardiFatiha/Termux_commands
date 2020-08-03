@@ -16,6 +16,7 @@
       `apt install cmatrix`.
   checkout if they have been installed in the list of packages.
   running cmatrix like in the Matrix movie: `cmatrix`
+  ![](cmatrix.jpeg)
   
   - Updating package index (`apt update`)
   - Upgrading packages (`apt upgrade`)
@@ -26,4 +27,6 @@
   - Remove Unused Packages (`apt autoremove`)
   - Searching Packages (`apt search`)
   - Package Information (`apt show`)
+Knowing how to manage packages is an essential part of Linux system administration.
 
+`apt` is a package manager for debian based distributions. To learn more about the `apt` command open your terminal and type `man apt`.
