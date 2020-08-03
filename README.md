@@ -23,10 +23,10 @@
   - Full Upgrading (`apt full-upgrade`)
   The difference between upgrade and full-upgrade is that the later will remove the installed packages if that is needed to upgrade the whole system.
   - Installing packages (`apt install`)
-  - Removing Packages (`apt remove`)
+  - Removing Packages (`apt remove`) : apt remove package-name
   - Remove Unused Packages (`apt autoremove`)
   - Searching Packages (`apt search`)
   - Package Information (`apt show`)
-Knowing how to manage packages is an essential part of Linux system administration.
-
-`apt` is a package manager for debian based distributions. To learn more about the `apt` command open your terminal and type `man apt`.
+  
+  Knowing how to manage packages is an essential part of Linux system administration.
+ `apt` is a package manager for debian based distributions. To learn more about the `apt` command open your terminal and type `man apt`.
