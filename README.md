@@ -30,3 +30,15 @@
   
   Knowing how to manage packages is an essential part of Linux system administration.
  `apt` is a package manager for debian based distributions. To learn more about the `apt` command open your terminal and type `man apt`.
+ 
+ 
+ ## Package Management Systems
+ Most package systems are built around collections of package files. A package file is usually an archive which contains compiled binaries and other resources making up the software, along with installation scripts. Packages also contain valuable metadata, including their dependencies, a list of other packages required to install and run them.
+ 
+|   Operating   | SystemFormat  |      Tools                    |
+| ------------- | ------------- | ----------------------------- |
+| Debian        | .deb          | apt(apt-cache, apt-get, dpkg) |
+| Ubuntu        | .deb          | apt(apt-cache, apt-get, dpkg) |
+| CentOS        | .rpm          | yum                           |
+| Fedora        | .rpm          | dnf                           |
+| FreeBSD       | .txz          | make,pkg                      |
