@@ -42,3 +42,14 @@
 | CentOS        | .rpm          | yum                           |
 | Fedora        | .rpm          | dnf                           |
 | FreeBSD       | .txz          | make,pkg                      |
+
+## Update Package Lists
+Most systems keep a local database of the packages available from remote repositories. It’s best to update this database before installing or upgrading packages. As a partial exception to this pattern, yum and dnf will check for updates before performing some operations, but you can ask them at any time whether updates are available.
+
+|    System     |    Command          |    
+| ------------- | ------------------- |  
+| Debian        | sudo apt-get update |
+| Ubuntu        | sudo apt-get update |
+| CentOS        | yum check-update    | 
+| Fedora        | dnf check-update    | 
+| FreeBSD       | sudo pkg update     |
