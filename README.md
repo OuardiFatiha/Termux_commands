@@ -1,5 +1,6 @@
 # Termux_commands
-
+Termux is an Android terminal emulator and Linux environment Android app that works directly with root and without root. <br>
+A Terminal base system is installed automatically – additional packages are available using the APT package manager.
 ## Storage setup, Update and Upgrade Command
 
 - `termux-setup-storage`
@@ -53,3 +54,26 @@ Most systems keep a local database of the packages available from remote reposit
 | CentOS        | yum check-update    | 
 | Fedora        | dnf check-update    | 
 | FreeBSD       | sudo pkg update     |
+
+## Termux Basic Commands
+| Command  | Usage  | Example  | Explanation  |   
+|---|---|---|---|
+| clear  | `clear`  | `clear`  | Clear Screen  |   
+| pwd  | `pwd`  | `pwd`  | Current Working Directory  |   
+| cd  | `cd`  | `cd /home`  | Changing Directory  | 
+| touch  | `touch <file-name>`  | `touch file.txt`  | Create New File  |
+| mkdir  | `mkdir <new-directoy-name>`  | `mkdir new_folder`  | Create New Directory  |
+| rmdir   | `rmdir <directory-name>`  | `rmdir new_folder`  | Delete Directory  |
+| rm   | `rm <file-name>`  | `rm file.txt`  | Delete File  |
+| mv   | `mv <old-filename> <new-overwirte-filename>`  | `mv old_file.txt new_file.txt`  | Rename File and Directory & Move a File  |
+| cp   | `cp <filename> <new-filename>`  | `cp file.txt new_file.txt`  | Copy File and Directory  |
+| vi   | `vi <filename>`  | `vi file.txt`  | File Editor VI  |
+| nano   | `nano <filename>`  | `nano file.txt`  | File Editor nano  |
+| cat   | `cat <filename>`  | `cat file.txt`  | Read File Content  |
+| top   | `top`  | `top`  | All running background Process Top command  |
+| chmod   | `chmod (permission-mode) <filename>`  | `chmod +x file.sh`  | Change Permission  |
+| chown   | `chown (newuser:newgroup) <filename>`  | `chown new_user file.txt`  | Change Group  |
+| git clone   | `git clone <cloning url>`  | `git clone url`  | Clone Source code from Github  |
+| wget   | `wget <download-file-url>`  | `wget url`  | Download File wget  |
+| curl   | `curl <download-file-url> -o <output-filename>`  | `curl url -o out.pdf`  | Download File curl  |
+| history   | `history`  | `history`  |  All Previous run Command  |
